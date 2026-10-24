@@ -1,8 +1,7 @@
 name: trampolinetown
 description: "Trampoline Town - trampoline hopscotch"
 publish_to: 'none'
-version: 1.0.0+1
-
+version: 1.0.0+2
 environment:
   sdk: ^3.13.5
 
@@ -39,3 +38,7 @@ flutter:
     - assets/sfx/win.wav
     - assets/sfx/lose.wav
     - assets/sfx/music_loop.wav
+  fonts:
+    - family: GochiHand
+      fonts:
+        - asset: assets/fonts/GochiHand-Regular.ttf
